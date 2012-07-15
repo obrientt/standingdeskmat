@@ -26,8 +26,6 @@
 		    
             <div class="copyright">
                 <p>&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>. <?php _e('Powered by', 'framework') ?> <a href="http://wordpress.org/">WordPress</a></p>
-
-    			<p><a href="http://www.premiumpixels.com/scope">Scope Theme</a> by <a href="http://www.premiumpixels.com">Orman Clark</a></p>
             </div>
 		
 		    <!-- BEGIN #secondary-nav -->

@@ -1,7 +1,7 @@
 <!-- BEGIN .recent-work -->
 <div class="recent-work">
 
-    <h2 class="related-title"><span><?php _e('Recent Work', 'framework') ?></span></h2>
+    <h2 class="related-title"><span>Recent reviews</span></h2>
 
     <ul>
     <?php
@@ -21,7 +21,7 @@
             <?php if( (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) ) { ?>
         		<div class="post-thumb">
         			<a title="<?php printf(__('Permanent Link to %s', 'framework'), get_the_title()); ?>" href="<?php the_permalink(); ?>">
-                        <span class="post-thumb-overlay"><?php _e('View Project', 'framework'); ?></span>
+                        <span class="post-thumb-overlay"><?php _e('Read Review', 'framework'); ?></span>
         			    <?php the_post_thumbnail('portfolio-thumb'); ?>
         			</a>
         		</div>

@@ -136,8 +136,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: #222;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #222;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	padding: 0;
 }
@@ -189,7 +189,8 @@ h6 {
 #container {
 	width: 980px;
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 0 0 20px 0;
+	border-top: 3px solid #FB7944;
 }
 	
 #primary {
@@ -201,7 +202,7 @@ h6 {
 
 #content { 
     background: #fff;
-    margin: 10px 0 10px; 
+    margin: 20px 0 10px; 
     padding: 25px 20px 20px;
 }
 
@@ -228,18 +229,20 @@ h6 {
 /*-----------------------------------------------------------------------------------*/
 
 #header-top { 
-    color: #222;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 11px;
-    padding: 10px 20px;
-    overflow: hidden; 
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 0;
+  overflow: hidden;
 }
 
 #header-top p {
     background: #ffd62c;
     float: right;
     margin: 0;
-    padding: 3px 10px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
 }
 
 #header-top a { margin: 0; }

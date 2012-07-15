@@ -74,12 +74,12 @@
                                 $portfolioURL = get_post_meta($post->ID, 'tz_portfolio_url', true);
                         	    
             		            if( !empty($portfolioClient) ) {
-            		                echo '<h5>' . __('Client:', 'framework') . '</h5>';
+            		                echo '<h5>' . __('Manufacturer:', 'framework') . '</h5>';
             		                echo '<span>' . $portfolioClient . '</span><br />';
             		            }
 
                                 if( !empty($portfolioDate) ) {
-                                    echo '<h5>' . __('Date:', 'framework') . '</h5>';
+                                    echo '<h5>' . __('Price:', 'framework') . '</h5>';
                                     echo '<span>' . $portfolioDate . '</span><br />';
                                 }
 
