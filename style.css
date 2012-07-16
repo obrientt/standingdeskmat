@@ -92,6 +92,7 @@ a {
 a:hover { 
     border-bottom: 1px dotted transparent;
     background-color: #ffd62c;
+    color: white;
 }
 
 a img { 
@@ -190,7 +191,6 @@ h6 {
 	width: 980px;
 	margin: 0 auto;
 	padding: 0 0 20px 0;
-	border-top: 3px solid #FB7944;
 }
 	
 #primary {
@@ -202,6 +202,7 @@ h6 {
 
 #content { 
     background: #fff;
+    border-radius: 2px;
     margin: 20px 0 10px; 
     padding: 25px 20px 20px;
 }
@@ -249,8 +250,9 @@ h6 {
 
 #header {
     background: #fff;
+    border-radius: 2px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    padding: 20px 20px 13px;
+    padding: 13px 20px;
 }
 
 #logo { float: left; }
@@ -1093,9 +1095,9 @@ button:hover {
     padding: 2px 5px;
     margin: 0;
 }
-
-#sort-by a.active { background-color: #ffd62c; }
-
+#sort-by a.active, #sort-by a:hover {
+  color: white;
+}
 
 /* Single Portfolio -----------------------------------*/
 
@@ -1485,8 +1487,9 @@ button:hover {
     padding: 1px 4px 0;
 }
 
-.page-navigation a:hover,
-.single-page-navigation a:hover { color: #222; }
+.page-navigation a:hover { color: #222; }
+
+.single-page-navigation a:hover { color: white; }
 
 .page-navigation .nav-next { float: left; }
 
@@ -1533,8 +1536,10 @@ button:hover {
 
 #footer {
     background: #222;
+    border-radius: 2px;
     color: #aaa;
-	padding: 25px 20px 5px 20px;
+	  padding: 25px 20px 5px 20px;
+    margin-top: 20px;
 }
 
 .footer-left {
@@ -1553,7 +1558,7 @@ button:hover {
     color: #222;
     font: 11px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .copyright { 

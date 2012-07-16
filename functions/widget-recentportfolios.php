@@ -89,7 +89,7 @@ class tz_recent_portfolios_widget extends WP_Widget {
                     <?php if ( (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) ) { ?>
         				<div class="post-thumb">
         					<a title="<?php printf(__('Permanent Link to %s', 'framework'), get_the_title()); ?>" href="<?php the_permalink(); ?>">
-                                <span class="post-thumb-overlay"><?php _e('View Project', 'framework'); ?></span>
+                                <span class="post-thumb-overlay"><?php _e('Read Review', 'framework'); ?></span>
         					    <?php the_post_thumbnail('portfolio-thumb'); ?>
         					</a>
         				</div>

@@ -79,7 +79,7 @@
             		            }
 
                                 if( !empty($portfolioDate) ) {
-                                    echo '<h5>' . __('Price:', 'framework') . '</h5>';
+                                    echo '<h5>' . __('Dimensions:', 'framework') . '</h5>';
                                     echo '<span>' . $portfolioDate . '</span><br />';
                                 }
 
