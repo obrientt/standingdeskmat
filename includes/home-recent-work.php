@@ -29,12 +29,6 @@
 
         	<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'framework'), get_the_title()); ?>"> <?php the_title(); ?></a></h2>
 	
-        	<!--BEGIN .entry-meta -->
-        	<div class="entry-meta">
-        		<span class="entry-portfolio-type"><?php the_terms($post->ID, 'portfolio-type', '', ', ', ''); ?></span>
-        	<!--END .entry-meta -->
-        	</div>
-	
     	</li>	
     	<?php $i++; ?>		
 
