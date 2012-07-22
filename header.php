@@ -8,6 +8,17 @@
 
 	<!-- Meta Tags -->
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+  <?php 
+      // get the meta information and display if supplied
+      $metaData = get_post_meta($post->ID, 'meta', true);
+      
+      if( !empty($metaData) ) {
+          echo '<meta name="description" content="'. $metaData . '" />';	
+      }
+      else {
+          echo '<meta name="description" content="Reviews of standing desk mats, office standing desk mats and anti-fatigue mats." />';	
+      }
+  ?>
 	
 	<!-- Title -->
 	<title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
