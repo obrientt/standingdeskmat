@@ -6,18 +6,18 @@
 			    <h1 class="page-title"><?php the_title(); ?></h1>
 			    
 			    <!--BEGIN .navigation .single-page-navigation -->
-				<div class="navigation single-page-navigation">
+        <!-- <div class="navigation single-page-navigation"> -->
 				
-				    <?php if( get_previous_post() ) : ?>
-					<div class="nav-previous"><?php previous_post_link('&larr; %link') ?></div>
+				  <?php if( get_previous_post() ) : ?>
+          <!-- <div class="nav-previous"><?php previous_post_link('&larr; %link') ?></div> -->
 					<?php endif; ?>
 					
 					<?php if( get_next_post() ) : ?>
-					<div class="nav-next"><?php next_post_link('%link &rarr;') ?></div>
+          <!-- <div class="nav-next"><?php next_post_link('%link &rarr;') ?></div> -->
 					<?php endif; ?>
 
 				<!--END .navigation .single-page-navigation -->
-				</div>
+        <!-- </div> -->
 				
 			<!--END .page-header -->
 			</div>
